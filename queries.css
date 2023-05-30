@@ -1,0 +1,137 @@
+@media (max-width: 84em) {
+}
+/* 1200px */
+@media (max-width: 75em) {
+  .name {
+    font-size: 3rem;
+  }
+  .score {
+    font-size: 7rem;
+  }
+  /* .dice {
+  } */
+  .current {
+    width: 55%;
+  }
+  .current-label {
+    font-size: 1.4rem;
+  }
+  .current-score {
+    font-size: 1.4rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+/* 944px Tablets */
+@media (max-width: 59em) {
+}
+/* BELOW 704px (Smaller tablets) */
+
+@media (max-width: 44em) {
+  main {
+    flex-direction: column;
+    height: 90%;
+  }
+  section {
+    padding: 4rem !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .score {
+    font-size: 4rem;
+    margin-bottom: 2.4rem;
+  }
+  .dice {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 7rem;
+  }
+  .current {
+    width: 50%;
+  }
+  .current-label {
+    font-size: 2rem;
+  }
+  .current-score {
+    font-size: 2rem;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    /* position: absolute; */
+  }
+  .btn--hold {
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+  .btn--new {
+    left: 20%;
+  }
+  .btn--roll {
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+}
+/* BELOW 544px (Phones) */
+
+@media (max-width: 34em) {
+  main {
+    flex-direction: column;
+  }
+  section {
+    padding: 2rem 1rem !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .score {
+    font-size: 4rem;
+    margin-bottom: 2.4rem;
+  }
+  .dice {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 7rem;
+  }
+  .current {
+    width: 30%;
+  }
+  .current-label {
+    font-size: 1.6rem;
+  }
+  .current-score {
+    font-size: 1.6rem;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    /* position: absolute; */
+  }
+  .btn--hold {
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+  .btn--new {
+    left: 20%;
+  }
+  .btn--roll {
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+  .btn--web {
+    display: none;
+  }
+  .btn--mob {
+    display: block;
+  }
+}
